@@ -1,0 +1,28 @@
+{
+    "name": "indeyec/php_praktos",
+    "description": "praktika",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "indeyec",
+            "email": "vlad.shilov03@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "nikic/fast-route": "^2.0@dev",
+        "indeyec/collect": "*",
+        "phpunit/phpunit": "^10.1@dev",
+        "indeyec/component": "dev-master",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
